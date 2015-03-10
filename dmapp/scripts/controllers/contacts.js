@@ -3,7 +3,7 @@ angular.module('myApp.controllers.contacts', [ ])
     .controller('contactDetailCtrl', function ($scope, syncObject, $stateParams, $rootScope) {
         /*triple data binding*/
         $scope.syncContactDetail = function () {
-            syncObject(['users', $rootScope.authData.uid, 'contacts', $stateParams.contactId])
+            syncObject(['users', 'simplelogin:40', 'contacts', $stateParams.contactId])
                 .$bindTo($scope, 'contactDetail')
                 .then(function (unBind) {
                     $scope.unBindProfile = unBind;
@@ -29,7 +29,7 @@ angular.module('myApp.controllers.contacts', [ ])
         function syncContacts() {
         }
 
-        var CONTACT = syncArray(['users', $rootScope.authData.uid, 'contacts']);
+        var CONTACT = syncArray(['users', 'simplelogin:40', 'contacts']);
 
         function orderName() {
             contactsFavorite = [];
