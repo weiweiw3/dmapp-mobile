@@ -1,0 +1,40 @@
+{
+  "ProjectName": "dmapp",
+  "ProjectGuid": "2361774c-68d9-4eb4-9ff8-a3708832c9e0",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.dmapp",
+  "DisplayName": "dmapp",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{58a31d7c-48c4-4c4b-b32d-a0a48b907172}",
+  "WP8ProductID": "{833270cf-a986-4168-a413-e806e05cc26a}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.dmapp",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
