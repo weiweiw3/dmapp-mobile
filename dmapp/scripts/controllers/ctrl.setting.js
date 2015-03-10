@@ -8,7 +8,7 @@ angular.module('myApp.controllers.setting', [ ])
         $scope.syncProfile = function () {
 
 //          $scope.profile = {};
-            syncObject(['users', $rootScope.auth.user, 'profile'])
+            syncObject(['users', $rootScope.authData.uid, 'profile'])
                 .$bindTo($scope, 'profile')
                 .then(function (unBind) {
                     $scope.unBindProfile = unBind;

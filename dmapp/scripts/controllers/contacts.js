@@ -3,7 +3,7 @@ angular.module('myApp.controllers.contacts', [ ])
     .controller('contactDetailCtrl', function ($scope, syncObject, $stateParams, $rootScope) {
         /*triple data binding*/
         $scope.syncContactDetail = function () {
-            syncObject(['users', $rootScope.auth.user, 'contacts', $stateParams.contactId])
+            syncObject(['users', $rootScope.authData.uid, 'contacts', $stateParams.contactId])
                 .$bindTo($scope, 'contactDetail')
                 .then(function (unBind) {
                     $scope.unBindProfile = unBind;
