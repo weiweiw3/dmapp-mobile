@@ -73,7 +73,6 @@ angular.module('myApp.controllers.contacts', [ ])
 
         CONTACT.$loaded().then(
             function () {
-                console.log($rootScope.authData.uid+CONTACT.$ref().toString());
                 orderName();
                 ionicLoading.unload();
             }
